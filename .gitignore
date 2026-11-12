@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local encoder outputs
+output_tokens.npz
+single_image_tokens.npz
+*_tokens.npz
+
+# Course-provided large files: restore locally before running checks.
+# Download layout and hashes are documented in README.md.
+weights/image_encoder.npz
+assets/reference_outputs.npz
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
